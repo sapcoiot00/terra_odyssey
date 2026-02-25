@@ -1,2 +1,2 @@
 # terra_odyssey
-terra_odyssey v0.0.01
+terra_odyssey v0.0.1
