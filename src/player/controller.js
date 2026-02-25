@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import { CONTROLLER_SPEED, CONTROLLER_SENSiTIVITY } from "../config"
 
 export class PlayerController {
   constructor(camera, domElement) {
@@ -6,8 +7,8 @@ export class PlayerController {
     this.domElement = domElement;
 
     // Movement settings
-    this.speed = 0.3;
-    this.sensitivity = 0.002;
+    this.speed = CONTROLLER_SPEED;
+    this.sensitivity = CONTROLLER_SENSiTIVITY;
 
     // Rotation
     this.yaw = 0;
